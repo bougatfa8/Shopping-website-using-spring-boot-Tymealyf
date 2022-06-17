@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<<img src="D:/shoponline-master/src/main/resources/static/images/iphone.jpg" />
+		<img th:src="@{file:///D:/shoponline-master/src/main/resources/static/images/iphone.jpg}"/>
+		
+		<img src="../static/images/iphone.jpg" width="1000"
+             th:src="@{../static/images/iphone.jpg}"/>
+
+	<img src="iphone"/>
+	<img src="iphone"/>
+	<img src="iphone"/>
+	<img src="iphone"/>
+	<div class="row">
+	<div class="col">
+		<img src="iphone.jpg"/>
+		<img th:src="@{/images/iphone.jpg}"/>
+
+	</div>
+	</div>
+</body>
+</html>
